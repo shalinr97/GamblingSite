@@ -1,0 +1,46 @@
+h1 {
+    justify-content: center;
+    text-align: center;
+    color:#000000
+}
+h4 {
+    justify-content: center;
+    text-align: center;
+}
+html {background-color: grey;}
+body {
+  height:600px;
+  width:800px;
+  margin:2em auto 2em;
+  padding:5px;
+  position:relative;
+}
+
+.login-pg {
+  background-image: url("image1.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-blend-mode:screen;
+}
+.signup-pg {
+  background-image: url("image2.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+.betting-pg {
+  background-image: url("image3.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-blend-mode: screen;
+}
+
+
+input[type="button"], input[type="submit"] {
+    color:#000000;
+    width:100px;
+    height:30px;
+    background-color:#d3d3d3;
+    border:1px solid;
+    border-color: #696 #363 #363 #696;
+}
